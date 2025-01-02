@@ -12,7 +12,7 @@
 	<!-- Project information -->
 	<groupId>net.milkbowl.vault</groupId>
 	<artifactId>Vault</artifactId>
-	<version>${api.version}.3_JDK17</version>
+	<version>1.7.3</version>
 	<name>Vault</name>
 	<url>https://dev.bukkit.org/projects/vault</url>
 	<description>Vault is a Chat, Permissions &amp; Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves.</description>
@@ -100,14 +100,6 @@
 			<optional>true</optional>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/Privileges.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>de.bananaco.permissions.Permissions</groupId>
-			<artifactId>bPermissions</artifactId>
-			<version>2.0.9a</version>
-			<optional>true</optional>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/bpermissions.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.github.sebc722</groupId>
@@ -214,14 +206,6 @@
 			<systemPath>${project.basedir}/lib/TotalPermissions.jar</systemPath>
 		</dependency>
 		<dependency>
-			<groupId>ru.simsonic</groupId>
-			<artifactId>rscPermissions</artifactId>
-			<version>1.0</version>
-			<optional>true</optional>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/rscPermissions.jar</systemPath>
-		</dependency>
-		<dependency>
 			<groupId>KPerms</groupId>
 			<artifactId>KPerms</artifactId>
 			<version>1.0</version>
@@ -272,7 +256,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
-				<version>3.1.0</version>
+				<version>3.6.0</version>
 				<configuration>
 					<createDependencyReducedPom>false</createDependencyReducedPom>
 					<artifactSet>
