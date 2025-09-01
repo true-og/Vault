@@ -9,10 +9,8 @@
 javadoc
 Vault.jar
 /Vault.iml
-/target
-
-#added by LRFLEW
-#feel free to remove
-bin
+build/
+.gradle/
+bin/
 *.DS_Store
 /dependency-reduced-pom.xml

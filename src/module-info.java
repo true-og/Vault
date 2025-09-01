@@ -1,9 +1,10 @@
 module Vault {
+
     requires java.logging;
     requires DroxPerms;
     requires EssentialsGroupManager;
-	requires org.json.simple;
-	requires KPerms;
+    requires org.json.simple;
+    requires KPerms;
     requires PermissionsBukkit;
     requires PermissionsEx;
     requires Privileges;
@@ -22,4 +23,5 @@ module Vault {
     requires overpermissions;
 
     exports net.milkbowl.vault;
+
 }

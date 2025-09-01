@@ -1,11 +1,11 @@
-name: ${project.name}
-version: ${project.version}
-description: ${project.description}
+name: Vault
+version: ${version}
+description: Economy linker
 authors: [cereal, Sleaker, mung3r]
-website: ${project.url}
+website: https://github.com/true-og/Vault 
 api-version: 1.13
 
-main: ${mainClass}
+main: net.milkbowl.vault.Vault
 load: startup
 
 commands:
