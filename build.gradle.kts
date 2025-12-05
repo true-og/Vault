@@ -8,7 +8,7 @@ plugins {
     id("java") // Import Java plugin.
     id("java-library") // Import Java Library plugin.
     id("com.diffplug.spotless") version "7.0.4" // Import Spotless plugin.
-    id("com.gradleup.shadow") version "8.3.8" // Import Shadow plugin.
+    id("com.gradleup.shadow") version "8.3.9" // Import Shadow plugin.
     id("checkstyle") // Import Checkstyle plugin.
     eclipse // Import Eclipse plugin.
     kotlin("jvm") version "2.1.21" // Import Kotlin JVM plugin.
@@ -116,7 +116,6 @@ tasks.shadowJar {
     archiveBaseName.set("Vault")
     archiveFileName.set("Vault-${project.version}.jar")
     minimize()
-    relocate("org.bstats", "net.milkbowl.vault.metrics")
     dependencies {
         include(dependency("net.milkbowl.vault:VaultAPI"))
         include(dependency("org.bstats:bstats-bukkit"))
