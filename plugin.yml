@@ -2,7 +2,7 @@ name: Vault
 version: ${version}
 description: Economy linker
 authors: [cereal, Sleaker, mung3r]
-website: https://github.com/true-og/Vault 
+website: https://git.trueog.net/trueog/Vault 
 api-version: 1.13
 
 main: net.milkbowl.vault.Vault
